@@ -3,9 +3,9 @@
 	"coc.preferences.snippetStatusText": "Ⓢ ",
 	"coc.preferences.messageLevel": "error",
 	// 目标为显示悬停信息，默认情况下为浮动窗口
-	"coc.preferences.hoverTarget": "float",
-	"coc.preferences.enableFloatHighlight": true,
-	"coc.preferences.formatOnSaveFiletypes": [
+	"coc.preferences.hoverTarget":  "float",
+	"coc.preferences.enableFloatHighlight": "true",
+	"coc.preferences.formatOnSaveFiletypes": "hover" [
 		"javascript",
 		"typescript",
 		"html",
@@ -16,10 +16,10 @@
 	],
 	//"coc.source.around.firstMatch": false,
 	//"coc.source.buffer.firstMatch": false,
-	//"coc.source.syntax.firstMatch": false,
+	//"coc.source.syntax.firstMatch": "false",
 	// 在完成时不让Vim选择第一项
-	"suggest.noselect": true,
-	"suggest.enablePreselect": false,
+	"suggest.noselect": false,
+	"suggest.enablePreselect": true,
 	"suggest.detailMaxLength": 100,
 	// 自动触发补全
 	"suggest.autoTrigger": "always",
@@ -140,7 +140,7 @@
 				"go.mod"
 			],
 			// 禁用此语言服务器的workspaceFolders功能。
-			"disableWorkspaceFolders": true,
+			"disableWorkspaceFolders":  disable,
 			"filetypes": [
 				"go"
 			]
