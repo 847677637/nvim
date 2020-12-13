@@ -1,1 +1,1 @@
-## This is my Neovim config.
+## This is myish Neovim config.
