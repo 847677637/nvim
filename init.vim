@@ -410,9 +410,6 @@ Plug 'luochen1990/rainbow'
 Plug 'wincent/terminus'
 
 
-" Intellisense Engine
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 " Markdown
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
 " Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
@@ -746,11 +743,6 @@ let g:NERDTrimTrailingWhitespace = 1
 " map <Leader>cn <Plug>NERDCommenterToEOL('n', 'To_EOL')<CR>
 
 
-" ===
-" === Coc
-" ===
-
-source ~/.config/nvim/coc.vim
 
 " ===
 " === Vimspector
